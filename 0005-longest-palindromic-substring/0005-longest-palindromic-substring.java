@@ -27,17 +27,6 @@ class Solution {
         }
         return longeststring;
     }
-    public static boolean ispalindrome(String sub){
-       int left = 0;
-       int right = sub.length() - 1;
-       while(left < right){
-        if(sub.charAt(left)  != sub.charAt(right)){
-            return false;
-        }
-        left++;
-        right--;
-       }
-       return true;
-    }
+   
 
 }
