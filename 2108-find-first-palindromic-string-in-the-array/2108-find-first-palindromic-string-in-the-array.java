@@ -10,7 +10,6 @@ class Solution {
                 }
                 l++;
                 r--;
-                return word;
             }
             if(l>=r){
                 return word;
