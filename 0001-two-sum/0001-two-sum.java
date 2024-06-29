@@ -9,7 +9,9 @@ class Solution {
                 }
             }
         }
+        public int hello;
         return new int[0];
         }
     }
+
 
