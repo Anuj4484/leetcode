@@ -14,7 +14,7 @@ class Solution {
             heights[n-1-i] = temp;
         }
 
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n;++i){
             names[i] = mapping.get(heights[i]);
         }
         return names;
